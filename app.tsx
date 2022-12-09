@@ -1,5 +1,3 @@
-// This will our main app file.
-// ---- Library ---
 const React = {
     createElement: (tag, props, ...children) => {
         if (typeof tag === 'function') {
@@ -13,7 +11,6 @@ const React = {
         return el;
       },
 }
-
 const render = (el, container) => {
     let domEl;
     // 0. Check the type of el
